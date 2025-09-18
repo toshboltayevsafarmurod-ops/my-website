@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safarmurod Toshboltayev - Biografiya</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* Yulduzlar fon animatsiyasi */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: url('https://www.transparenttextures.com/patterns/stardust.png');
+      animation: moveStars 30s linear infinite;
+      z-index: -1;
+      opacity: 0.6;
+    }
+    @keyframes moveStars {
+      from { background-position: 0 0; }
+      to { background-position: 1000px 1000px; }
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: rgba(0,0,0,0.6);
+      border-bottom: 2px solid #00ffcc;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+      text-shadow: 0 0 10px #00ffe5;
+    }
+    header p {
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+    }
+
+    .highlight {
+      background: #00ffe5;
+      padding: 0.3rem 0.6rem;
+      border-radius: 6px;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      box-shadow: 0 4px 25px rgba(0,0,0,0.5);
+      backdrop-filter: blur(6px);
+    }
+    h2 {
+      color: #00ffe5;
+      margin-top: 1.2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "✔ ";
+      color: #00ffcc;
+    }
+
+    /* Yonib turuvchi kalit */
+    .key {
+      font-size: 2rem;
+      color: gold;
+      text-align: center;
+      margin: 1rem 0;
+      animation: glow 1.5s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 5px gold, 0 0 15px orange; }
+      to   { text-shadow: 0 0 20px yellow, 0 0 40px red; }
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(0,0,0,0.8);
+      color: white;
+      margin-top: 2rem;
+      border-top: 2px solid #00ffcc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Safarmurod Toshboltayev</h1>
+    <p><span class="highlight">Talaba</span> – O‘zbekiston Milliy Universiteti Jizzax filiali</p>
+    <div class="key">🔑</div>
+  </header>
+
+  <div class="container">
+    <h2>🎓 Ta’lim</h2>
+    <p>Safarmurod Toshboltayev hozirda <strong>O‘zbekiston Milliy Universiteti Jizzax filiali</strong>da tahsil olmoqda. U zamonaviy bilim va ko‘nikmalarni chuqur egallashga intiluvchi faol va iqtidorli talabadir.</p>
+
+    <h2>📜 Sertifikatlar</h2>
+    <ul>
+      <li>Axborot texnologiyalari bo‘yicha o‘quv kurslari</li>
+      <li>Ingliz tili va kommunikatsiya ko‘nikmalari</li>
+      <li>Shaxsiy rivojlanish va liderlik treninglari</li>
+    </ul>
+
+    <h2>🌟 Qiziqishlar</h2>
+    <ul>
+      <li>Dasturlash va texnologiyalar</li>
+      <li>Ilmiy maqolalar va kitoblar o‘qish</li>
+      <li>Sport va sog‘lom turmush tarzi</li>
+      <li>Innovatsion loyihalarda ishtirok etish</li>
+    </ul>
+
+    <h2>📝 Biografiya</h2>
+    <p>Safarmurod yosh bo‘lishiga qaramay, o‘z oldiga ulkan maqsadlar qo‘ygan va ularni amalga oshirish sari qadam tashlayotgan <strong>talaba</strong>. U o‘z bilimlari bilan jamiyat taraqqiyotiga hissa qo‘shishni istaydi. 
+    Ilmiy izlanishlar, yangi texnologiyalar va kreativ yondashuv – uning asosiy yo‘nalishlaridan biridir. 
+    Kelajakda katta muvaffaqiyatlarga erishib, o‘zining bilim va tajribalarini boshqalarga ham ulashishni niyat qilgan.</p>
+  </div>
+
+  <footer>
+    <p>© 2025 Safarmurod Toshboltayev. Barcha huquqlar himoyalangan.</p>
+  </footer>
+</body>
+</html>
